@@ -4,7 +4,8 @@
         "module": "system",
         "moduleResolution": "classic",
         "emitDecoratorMetadata": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "outDir": "js"
     },
     "exclude": [
         "node_modules"

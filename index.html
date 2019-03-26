@@ -3,16 +3,22 @@
 <head>
     <title>Primer</title>
     <meta charset="utf-8" />
-    
+
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script type="systemjs-importmap" src="/importmap.json"></script>
     <script src="node_modules/systemjs/dist/system.js"></script>
     <!-- <script src="primer.js"></script> -->
-   
     <script>
         //System.defaultJSExtensions = true;
-        System.import('/primer.js')
+        System.import('primer')
             .catch(function (err) { console.error(err); });
+
+        // System.import('variables');
+        // System.import('varsclosure');
+        // System.import('types');
+        // System.import('operators');
+        // System.import('typesconverting');
+        System.import('arrays');
     </script>
 </head>
 

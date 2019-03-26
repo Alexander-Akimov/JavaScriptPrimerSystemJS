@@ -1,5 +1,14 @@
 {
     "imports": {
-        "funcs": "/funcs.js"
+        "funcs": "/js/funcs.js",
+        "primer": "/js/primer.js",
+        "classes": "/js/classes.js",
+        "arrowfuncs": "/js/arrowfuncs.js",
+        "variables": "/js/variables.js",
+        "varsclosure": "/js/varsclosure.js",
+        "types": "/js/types.js",
+        "operators": "/js/operators.js",
+        "typesconverting": "/js/typesconverting.js",
+        "arrays": "/js/arrays.js"
     }
 }

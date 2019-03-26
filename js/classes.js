@@ -9,13 +9,12 @@ System.register([], function (exports_1, context_1) {
                 function Name() {
                 }
                 Name.prototype.myFunc = function () {
-                    console.log("This is a myFunc function call statement");
+                    console.log("This is a Name.myFunc function call statement");
                 };
                 return Name;
             }());
+            exports_1("Name", Name);
             ;
-            exports_1("default", Name);
-            //module.exports = myFunc;
         }
     };
 });
