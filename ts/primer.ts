@@ -2,6 +2,7 @@ import { Name as OtherName, MyClass, MyBaseClass } from "classes";
 import { resultFunc, myFunc, funcWithFancArgs, chainFunc } from "funcs";
 import { printDataChainFunc } from "arrowfuncs";
 import { MySubClass } from "classes_inheritance";
+import { workWithObject, objectLiteral } from "objects";
 
 //const myFunc = require('./funcs.js')
 //import MySubClass = require("./classes_inheritance");
@@ -49,8 +50,12 @@ console.log(myBaseData)
 // let myData = new MySubClass("Adam", "sunny", "London");
 // myData.printMessages();
 
+// objects
+// workWithObject();
+// objectLiteral();
+
 //modules
-import {Name, WeatherLocation} from "modules/NameAndWeather";
+/**/import { Name, WeatherLocation } from "modules/NameAndWeather";
 
 let name = new Name("Adam", "Freeman");
 console.log(name.nameMessage);
@@ -58,4 +63,6 @@ console.log(name.nameMessage);
 let loc = new WeatherLocation("raining", "London");
 
 console.log(loc.weatherMessage);
+
+
 

@@ -11,6 +11,7 @@
         "typesconverting": "/js/typesconverting.js",
         "arrays": "/js/arrays.js",
         "classes_inheritance": "/js/classes_inheritance.js",
-        "modules/NameAndWeather": "/js/modules/NameAndWeather.js"
+        "modules/NameAndWeather": "/js/modules/NameAndWeather.js",
+        "objects": "/js/objects.js"
     }
 }
