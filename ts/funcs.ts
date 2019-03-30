@@ -1,6 +1,7 @@
 
+// function declaration notation
 //Using Default and Rest Parameters
-let myFunc = function (name, weather = "raining", ...extraArgs) {
+function myFunc(name, weather = "raining", ...extraArgs) {
     console.log("Hello " + name + ".");
     console.log("It is " + weather + " today");
     for (let i = 0; i < extraArgs.length; i++) {
@@ -8,6 +9,7 @@ let myFunc = function (name, weather = "raining", ...extraArgs) {
     }
 };
 
+// function expression notation
 // Defining Functions That Return Results
 let resultFunc = function (name) {
     return `Hello ${name}.`;

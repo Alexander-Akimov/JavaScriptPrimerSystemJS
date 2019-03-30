@@ -1,4 +1,6 @@
+var message = "global message"; // doesn't affect
 let messageFunctionVar = function (name, weather) {
+
     var message = "Hello" + name;
     if (weather == "sunny") {
         var message = "It is a nice day";
@@ -22,5 +24,5 @@ let messageFunctionLet = function (name, weather) {
     console.log(message);
 }
 
-// messageFunctionVar("Adam", "raining");
+//messageFunctionVar("Adam", "raining");
 messageFunctionLet("Adam", "raining");
