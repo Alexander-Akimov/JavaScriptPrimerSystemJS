@@ -1,4 +1,8 @@
+//let myrrrr = new MyClass("","");//class used before its declaration
 class MyClass {
+    name;
+    _weather;
+
     constructor(name, weather) {
         this.name = name;
         this._weather = weather;
