@@ -12,6 +12,7 @@
         "arrays": "/js/arrays.js",
         "classes_inheritance": "/js/classes_inheritance.js",
         "modules/NameAndWeather": "/js/modules/NameAndWeather.js",
-        "objects": "/js/objects.js"
+        "objects": "/js/objects.js",
+        "bind_class": "/js/bind_class.js"
     }
 }

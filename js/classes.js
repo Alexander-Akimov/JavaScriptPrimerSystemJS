@@ -11,12 +11,13 @@ System.register([], function (exports_1, context_1) {
     return {
         setters: [],
         execute: function () {
+            //let myrrrr = new MyClass("","");//class used before its declaration
             MyClass = /** @class */ (function () {
-                function MyClass(name, weather) {
+                function class_1(name, weather) {
                     this.name = name;
                     this._weather = weather;
                 }
-                Object.defineProperty(MyClass.prototype, "weather", {
+                Object.defineProperty(class_1.prototype, "weather", {
                     get: function () {
                         return "Today is " + this._weather;
                     },
@@ -26,19 +27,18 @@ System.register([], function (exports_1, context_1) {
                     enumerable: true,
                     configurable: true
                 });
-                MyClass.prototype.printMessages = function () {
+                class_1.prototype.printMessages = function () {
                     console.log("Hello " + this.name + ". ");
                     console.log(this.weather);
                 };
-                MyClass.prototype.printMembers = function () {
+                class_1.prototype.printMembers = function () {
                     for (var key in this) {
                         console.log(this[key]);
                     }
                 };
-                return MyClass;
+                return class_1;
             }());
             exports_1("MyClass", MyClass);
-            ;
             Name = /** @class */ (function () {
                 function Name() {
                 }

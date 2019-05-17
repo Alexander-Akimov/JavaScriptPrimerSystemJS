@@ -1,6 +1,6 @@
 
 // function declaration notation
-//Using Default and Rest Parameters
+// Using Default and Rest Parameters
 function myFunc(name, weather = "raining", ...extraArgs) {
     console.log("Hello " + name + ".");
     console.log("It is " + weather + " today");

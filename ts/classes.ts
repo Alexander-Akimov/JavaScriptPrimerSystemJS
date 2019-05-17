@@ -1,5 +1,5 @@
 //let myrrrr = new MyClass("","");//class used before its declaration
-class MyClass {
+var MyClass = class  { //class expressions without name
     name;
     _weather;
 

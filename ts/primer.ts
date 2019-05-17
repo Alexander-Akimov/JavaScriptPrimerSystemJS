@@ -55,7 +55,7 @@ console.log(myBaseData)
 // objectLiteral();
 
 //modules
-/**/import { Name, WeatherLocation } from "modules/NameAndWeather";
+/*import { Name, WeatherLocation } from "modules/NameAndWeather";
 
 let name = new Name("Adam", "Freeman");
 console.log(name.nameMessage);
@@ -63,6 +63,16 @@ console.log(name.nameMessage);
 let loc = new WeatherLocation("raining", "London");
 
 console.log(loc.weatherMessage);
+*/
+//bind_class
+import   SportsStoreController  from "bind_class";
+
+const storeController = new SportsStoreController();
+
+
+let method = storeController.getAll; // Как сделать так чтобы сработал метод mapProduct();
+console.log(method.prototype);
+method.call();
 
 
 

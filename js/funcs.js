@@ -3,7 +3,7 @@ System.register([], function (exports_1, context_1) {
     var resultFunc, funcWithFancArgs, chainFunc;
     var __moduleName = context_1 && context_1.id;
     // function declaration notation
-    //Using Default and Rest Parameters
+    // Using Default and Rest Parameters
     function myFunc(name, weather) {
         if (weather === void 0) { weather = "raining"; }
         var extraArgs = [];
