@@ -13,14 +13,16 @@
   "author": "akimov.infotech",
   "license": "ISC",
   "dependencies": {
-    "classlist": "^2.0.0",
-    "core-js": "^2.6.5",
     "bootstrap": "^4.3.1",
-    "systemjs": "^3.0.2"
+    "classlist": "^2.0.0",
+    "core-js": "^3.1.3",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "systemjs": "^3.1.6"
   },
   "devDependencies": {
-    "lite-server": "^2.4.0",
-    "typescript": "^3.3.3333",
+    "lite-server": "^2.5.3",
+    "typescript": "^3.5.1",
     "concurrently": "^4.1.0",
     "typings": "^2.1.1"
   }
