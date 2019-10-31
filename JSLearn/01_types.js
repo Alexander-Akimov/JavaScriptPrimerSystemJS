@@ -86,6 +86,57 @@ console.log(0 == [])//true
 console.log(0 == {})//false
 console.log(0 == null)//false
 */
+
+/*
+types: 
+
+    undefined, 
+    object - null, {}, [], Math
+    number - NaN,
+    string,
+    boolean - true, false,
+    symbol,
+    function - () => {}
+    
+*/
+
+/*console.log('______js types______')
+console.log(typeof undefined)
+//undefined - number: NaN
+console.log('____________________')
+*/
+
+//falsy values: '', 0, '0', [], Boolean(null), Boolean(undefined), Boolean(NaN), false
+/*console.log(false == 0)//convert to numbers
+console.log(false == '0')//convert to numbers
+console.log(false == [])//convert to numbers
+console.log(false == [0])//convert to numbers
+console.log(0 == '')//convert to numbers
+console.log(true == [1])//convert to numbers
+*/
+/*
+console.log('0' == ['0'])//convert to object
+*/
+
+console.log(false == '') //convert to Boolean
+console.log(true == [1]) //convert to Boolean
+console.log(false == Boolean(NaN)) //convert to Boolean
+console.log(false == Boolean(undefined))
+console.log(false == Number(0))
+console.log(0 == false)
+
+
+console.log('______')
+
+var car = console.log;
+
+console.log(typeof car)
+
+console.log(typeof (() => { }))
+console.log(typeof function () { })
+console.log(typeof Object())
+
+
 console.log(
     Object.getPrototypeOf(Function.prototype) === Object.prototype
 )//true
